@@ -4,7 +4,7 @@ import { tracks, Track } from './data/tracks';
 import { TrackCard } from './components/TrackCard';
 import { TrackDetail } from './components/TrackDetail';
 
-export function App() {
+export default function App() {
   const [showLanding, setShowLanding] = useState(true);
 
   const [selectedTrack, setSelectedTrack] = useState<Track | null>(null);
