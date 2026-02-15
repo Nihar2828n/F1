@@ -11,7 +11,7 @@ export default function Landing() {
         loop
         playsInline
       >
-        <source src="/landing.mp4" type="video/mp4" />
+        <source src="/ferdinand-alonso-ferdinand.mp4" type="video/mp4" />
       </video>
 
       <div className="landing-overlay" />
